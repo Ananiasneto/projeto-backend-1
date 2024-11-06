@@ -4,10 +4,18 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "start": "node index.js"
+    "start": "node ./src/app.js"
+    ,"dev":"nodemon ./src/app.js"
   },
   "keywords": [],
   "author": "Ananias Neto",
   "license": "ISC",
-  "description": "Projeto feirinha"
+  "description": "Projeto feirinha",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  }
 }
